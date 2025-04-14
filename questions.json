@@ -1,0 +1,127 @@
+[
+    {
+      "question": "¿Cuál es la forma correcta de asignar un valor a una variable en Python?",
+      "options": ["my_var = 10", "var my_var = 10", "let my_var = 10", "const my_var = 10"],
+      "answer": "my_var = 10",
+      "explanation": "En Python, no es necesario declarar el tipo de variable. Simplemente se asigna un valor a un identificador utilizando el operador =."
+    },
+    {
+      "question": "¿Cuál es el resultado de la siguiente expresión en Python: 5 + '5'?",
+      "options": ["10", "'55'", "TypeError", "'10'"],
+      "answer": "TypeError",
+      "explanation": "En Python, no se puede sumar un entero y una cadena directamente; esto generará un TypeError."
+    },
+    {
+      "question": "¿Cuál es el operador utilizado para concatenar cadenas en Python?",
+      "options": ["+", "-", "*", "/"],
+      "answer": "+",
+      "explanation": "En Python, el operador + se utiliza para concatenar cadenas de texto."
+    },
+    {
+      "question": "¿Cuál es la forma correcta de escribir un comentario de una sola línea en Python?",
+      "options": ["/* comentario */", "# comentario", "// comentario", "<!-- comentario -->"],
+      "answer": "# comentario",
+      "explanation": "En Python, los comentarios de una sola línea se escriben precediendo el texto con el símbolo #."
+    },
+    {
+      "question": "¿Qué función se utiliza en Python para convertir una cadena a un número entero?",
+      "options": ["int()", "float()", "str()", "bool()"],
+      "answer": "int()",
+      "explanation": "La función int() se utiliza para convertir una cadena que representa un número en un entero en Python."
+    },
+    {
+      "question": "¿Cuál de los siguientes no es un tipo de dato en Python?",
+      "options": ["int", "str", "char", "bool"],
+      "answer": "char",
+      "explanation": "En Python, no existe un tipo de dato 'char'; se utilizan cadenas (str) para representar caracteres individuales."
+    },
+    {
+      "question": "¿Cuál es la palabra clave utilizada para definir una función en Python?",
+      "options": ["function", "def", "fun", "lambda"],
+      "answer": "def",
+      "explanation": "En Python, se utiliza la palabra clave def para definir una función."
+    },
+    {
+      "question": "¿Cuál es el operador utilizado para la comparación de igualdad en Python?",
+      "options": ["==", "is", "=", "==="],
+      "answer": "==",
+      "explanation": "En Python, el operador == se utiliza para comparar la igualdad en valor entre dos objetos, a diferencia de 'is' que verifica si son el mismo objeto."
+    },
+    {
+      "question": "¿Qué método se utiliza para agregar un elemento al final de una lista en Python?",
+      "options": ["append()", "push()", "add()", "insert()"],
+      "answer": "append()",
+      "explanation": "En Python, la lista tiene el método append() que añade un elemento al final de la misma."
+    },
+    {
+      "question": "¿Cuál es el resultado de la siguiente expresión en Python: 2 * '3'?",
+      "options": ["6", "33", "Error", "2*3"],
+      "answer": "33",
+      "explanation": "En Python, multiplicar una cadena por un entero repite la cadena ese número de veces, por lo que 2 * '3' produce '33'."
+    },
+    {
+      "question": "¿Qué función se utiliza para imprimir mensajes en la consola en Python?",
+      "options": ["print()", "console.log()", "echo()", "printf()"],
+      "answer": "print()",
+      "explanation": "La función print() se utiliza en Python para mostrar mensajes en la consola."
+    },
+    {
+      "question": "En Python, ¿cómo se indica por convención que una variable es constante?",
+      "options": ["Usando la palabra clave const", "Escribiendo el nombre en mayúsculas", "No es posible declarar constantes", "Usando la función constant()"],
+      "answer": "Escribiendo el nombre en mayúsculas",
+      "explanation": "Python no tiene una palabra reservada para declarar constantes; por convención, se escriben en mayúsculas para indicar que su valor no debe modificarse."
+    },
+    {
+      "question": "¿Cómo se accede al primer elemento de una lista en Python?",
+      "options": ["lista[0]", "lista[1]", "lista.first()", "lista[-1]"],
+      "answer": "lista[0]",
+      "explanation": "En Python, las listas se indexan comenzando en 0, por lo que el primer elemento se accede con lista[0]."
+    },
+    {
+      "question": "¿Qué función se utiliza para convertir un objeto de Python (por ejemplo, un diccionario) en una cadena en formato JSON?",
+      "options": ["json.dumps()", "json.loads()", "str()", "toJSON()"],
+      "answer": "json.dumps()",
+      "explanation": "En Python, la función json.dumps() del módulo json se utiliza para convertir un objeto Python en una cadena con formato JSON."
+    },
+    {
+      "question": "¿Cuál es el resultado de la siguiente expresión en Python: True and False?",
+      "options": ["True", "False", "Error", "Ninguno"],
+      "answer": "False",
+      "explanation": "En Python, el operador and devuelve True solo si ambos operandos son True; de lo contrario, devuelve False."
+    },
+    {
+      "question": "¿Cómo se declara un diccionario en Python?",
+      "options": [
+        "{'clave': 'valor'}",
+        "[('clave', 'valor')]",
+        "(clave: 'valor')",
+        "'clave: valor'"
+      ],
+      "answer": "{'clave': 'valor'}",
+      "explanation": "Los diccionarios en Python se definen utilizando llaves {} con pares clave: valor separados por comas."
+    },
+    {
+      "question": "¿Qué función se utiliza para obtener la longitud de una lista en Python?",
+      "options": ["length()", "len()", "count()", "size()"],
+      "answer": "len()",
+      "explanation": "La función len() es una función incorporada en Python que se utiliza para obtener el número de elementos de una secuencia, como una lista."
+    },
+    {
+      "question": "¿Cuál es la forma correcta de iterar sobre los elementos de una lista en Python?",
+      "options": [
+        "for i in lista:",
+        "while (i in lista):",
+        "foreach(lista):",
+        "lista.iterate()"
+      ],
+      "answer": "for i in lista:",
+      "explanation": "En Python, la estructura for permite iterar directamente sobre los elementos de una lista utilizando la sintaxis 'for elemento in lista:'."
+    },
+    {
+      "question": "¿Cómo se obtiene el tipo de dato de una variable en Python?",
+      "options": ["type()", "typeof()", "getType()", "dataType()"],
+      "answer": "type()",
+      "explanation": "La función type() es la forma estándar en Python para obtener el tipo de un objeto o variable."
+    }
+  ]
+  
