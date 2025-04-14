@@ -1,0 +1,223 @@
+[
+    {
+      "question": "¿Cuál de las siguientes definiciones describe mejor un decorador en Python?",
+      "options": [
+        "Una función que modifica el comportamiento de otra función sin modificar su código fuente",
+        "Una función que se utiliza para decorar cadenas",
+        "Una clase especial para decorar objetos",
+        "Ninguna de las anteriores"
+      ],
+      "answer": "Una función que modifica el comportamiento de otra función sin modificar su código fuente",
+      "explanation": "Los decoradores son funciones que envuelven a otras funciones para extender o modificar su comportamiento sin alterar su código interno."
+    },
+    {
+      "question": "¿Cuál de los siguientes fragmentos de código utiliza correctamente una lista por comprensión para obtener los cuadrados de los números pares entre 0 y 9?",
+      "options": [
+        "[x**2 for x in range(10) if x % 2 == 0]",
+        "[x**2 if x % 2 == 0 for x in range(10)]",
+        "[x * 2 for x in range(10) if x % 2 == 0]",
+        "for x in range(10): if x % 2 == 0: lista.append(x**2)"
+      ],
+      "answer": "[x**2 for x in range(10) if x % 2 == 0]",
+      "explanation": "La comprensión de listas permite crear nuevas listas aplicando una expresión a cada elemento de un iterable y filtrando aquellos que cumplen cierta condición."
+    },
+    {
+      "question": "¿Qué palabra clave se utiliza para definir un generador en Python?",
+      "options": [
+        "return",
+        "yield",
+        "generate",
+        "next"
+      ],
+      "answer": "yield",
+      "explanation": "El uso de 'yield' en una función convierte a dicha función en un generador, el cual produce una secuencia de valores a lo largo del tiempo."
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es correcta sobre las funciones lambda en Python?",
+      "options": [
+        "Son funciones anónimas",
+        "Solo pueden contener una expresión",
+        "Ambas A y B",
+        "Requieren una declaración 'def' para ser creadas"
+      ],
+      "answer": "Ambas A y B",
+      "explanation": "Las funciones lambda son funciones anónimas definidas en una sola línea y pueden contener solo una expresión, lo que limita su complejidad."
+    },
+    {
+      "question": "¿Qué resultado produce la expresión: list(range(0, 10, 2))?",
+      "options": [
+        "[0, 2, 4, 6, 8]",
+        "[0, 2, 4, 6, 8, 10]",
+        "[2, 4, 6, 8, 10]",
+        "[0, 1, 2, 3, 4]"
+      ],
+      "answer": "[0, 2, 4, 6, 8]",
+      "explanation": "La función range(0, 10, 2) genera números desde 0 hasta 8 de dos en dos, y list() lo convierte en una lista."
+    },
+    {
+      "question": "¿Cuál es la principal ventaja de usar el enunciado 'with open(...) as f:' en el manejo de archivos en Python?",
+      "options": [
+        "Permite modificar el archivo directamente",
+        "Gestiona automáticamente el cierre del archivo",
+        "Abre el archivo en modo exclusivo",
+        "Convierte el archivo en un objeto iterable"
+      ],
+      "answer": "Gestiona automáticamente el cierre del archivo",
+      "explanation": "Utilizar la sentencia 'with' garantiza que el archivo se cierre de forma automática al final del bloque, incluso en caso de errores."
+    },
+    {
+      "question": "Dados: lista = [1, 2, 3, 4, 5]. ¿Cuál es el resultado de imprimir lista[::-1]?",
+      "options": [
+        "[5, 4, 3, 2, 1]",
+        "[1, 2, 3, 4, 5]",
+        "[4, 3, 2, 1]",
+        "Error por índice negativo"
+      ],
+      "answer": "[5, 4, 3, 2, 1]",
+      "explanation": "El slicing con [::-1] invierte la lista, retornando los elementos en orden inverso."
+    },
+    {
+      "question": "En el contexto de una función, ¿qué representan *args y **kwargs?",
+      "options": [
+        "Son argumentos fijos que no pueden variar",
+        "Representan argumentos variables posicionales y de palabra clave, respectivamente",
+        "Son operadores de multiplicación y potencia",
+        "No tienen un uso específico en Python"
+      ],
+      "answer": "Representan argumentos variables posicionales y de palabra clave, respectivamente",
+      "explanation": "Utilizar *args permite recibir una cantidad variable de argumentos posicionales, mientras que **kwargs permite recibir argumentos de palabra clave."
+    },
+    {
+      "question": "¿Qué módulo estándar se utiliza en Python para trabajar con expresiones regulares?",
+      "options": [
+        "regex",
+        "re",
+        "pattern",
+        "exp"
+      ],
+      "answer": "re",
+      "explanation": "El módulo 're' es el encargado de proporcionar herramientas para trabajar con expresiones regulares en Python."
+    },
+    {
+      "question": "¿Qué función se utiliza para convertir un objeto iterador en una lista?",
+      "options": [
+        "list()",
+        "iter()",
+        "tuple()",
+        "set()"
+      ],
+      "answer": "list()",
+      "explanation": "La función list() recibe un objeto iterable y lo convierte en una lista."
+    },
+    {
+      "question": "Respecto a la inmutabilidad de tipos en Python, ¿cuál es la afirmación correcta?",
+      "options": [
+        "Las listas son inmutables",
+        "Las tuplas son inmutables",
+        "Los diccionarios son inmutables",
+        "Las cadenas son mutables"
+      ],
+      "answer": "Las tuplas son inmutables",
+      "explanation": "Una vez creada, una tupla no puede ser modificada, a diferencia de las listas que son mutables."
+    },
+    {
+      "question": "¿Qué es un closure en Python?",
+      "options": [
+        "Una función que se ejecuta en segundo plano",
+        "Una función interna que recuerda el entorno en el que fue creada",
+        "Una técnica para cerrar archivos de forma segura",
+        "Un decorador que cierra conexiones de red"
+      ],
+      "answer": "Una función interna que recuerda el entorno en el que fue creada",
+      "explanation": "Un closure permite que una función interna acceda a variables locales de la función que la contiene, incluso después de que ésta haya finalizado su ejecución."
+    },
+    {
+      "question": "¿Cuál es el propósito del método __init__ en una clase de Python?",
+      "options": [
+        "Inicializar atributos de instancia",
+        "Definir métodos estáticos",
+        "Borrar una instancia",
+        "Imprimir la representación en cadena de la instancia"
+      ],
+      "answer": "Inicializar atributos de instancia",
+      "explanation": "El método __init__ es el constructor de una clase que se utiliza para inicializar los atributos de la instancia cuando se crea un objeto."
+    },
+    {
+      "question": "¿Qué hace la función map() en Python?",
+      "options": [
+        "Filtra los elementos de una lista",
+        "Aplica una función a cada elemento de un iterable y devuelve un iterador",
+        "Ordena los elementos de un iterable",
+        "Combina varios iterables en uno"
+      ],
+      "answer": "Aplica una función a cada elemento de un iterable y devuelve un iterador",
+      "explanation": "La función map() recibe una función y un iterable, aplicando la función a cada uno de los elementos y devolviendo un iterador con los resultados."
+    },
+    {
+      "question": "¿Qué método se utiliza para convertir una cadena a minúsculas en Python?",
+      "options": [
+        "lower()",
+        "upper()",
+        "islower()",
+        "capitalize()"
+      ],
+      "answer": "lower()",
+      "explanation": "El método lower() convierte todos los caracteres de una cadena a minúsculas."
+    },
+    {
+      "question": "¿Qué función permite filtrar elementos de una secuencia según una condición en Python?",
+      "options": [
+        "filter()",
+        "map()",
+        "reduce()",
+        "zip()"
+      ],
+      "answer": "filter()",
+      "explanation": "La función filter() toma una función que retorna True o False y aplica esta función a cada elemento del iterable, devolviendo un iterador con aquellos elementos que cumplen la condición."
+    },
+    {
+      "question": "¿Cómo se pueden combinar dos listas en Python de manera paralela, elemento a elemento?",
+      "options": [
+        "Utilizando la función zip()",
+        "Concatenándolas con el operador +",
+        "Usando la función merge()",
+        "Mediante la multiplicación de listas"
+      ],
+      "answer": "Utilizando la función zip()",
+      "explanation": "La función zip() toma dos o más iterables y devuelve un iterador de tuplas, donde la i-ésima tupla contiene el i-ésimo elemento de cada iterable."
+    },
+    {
+      "question": "¿Cuál es el resultado de la operación: 'Python'.replace('y', 'i')?",
+      "options": [
+        "Pithon",
+        "Pythin",
+        "Pithin",
+        "Python"
+      ],
+      "answer": "Pithon",
+      "explanation": "El método replace() busca la subcadena 'y' y la reemplaza por 'i', dando como resultado 'Pithon'."
+    },
+    {
+      "question": "¿Qué hace el método split() aplicado a una cadena en Python?",
+      "options": [
+        "Divide la cadena en una lista usando un separador específico",
+        "Une los caracteres de la cadena en otra cadena",
+        "Elimina espacios en blanco de la cadena",
+        "Reemplaza partes de la cadena por otra subcadena"
+      ],
+      "answer": "Divide la cadena en una lista usando un separador específico",
+      "explanation": "El método split() separa la cadena en una lista de subcadenas, basándose en el separador que se le indique (por defecto, espacios en blanco)."
+    },
+    {
+      "question": "Considera el siguiente código:\n\n```python\ndef f(n, lst=[]):\n    lst.append(n)\n    return lst\n\nprint(f(1))\nprint(f(2))\nprint(f(3))\n```\n\n¿Cuál es la salida impresa?",
+      "options": [
+        "[1] \\n [2] \\n [3]",
+        "[1] \\n [1, 2] \\n [1, 2, 3]",
+        "[1, 2, 3] en cada llamada",
+        "Se lanza un error por el uso de un objeto mutable"
+      ],
+      "answer": "[1] \\n [1, 2] \\n [1, 2, 3]",
+      "explanation": "El valor por defecto de 'lst' es mutable, por lo que se comparte entre las llamadas a la función, acumulando los valores pasados."
+    }
+  ]
+  
