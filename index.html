@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz básico de Python">
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <title>Python Quiz</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="introModal" class="modal">
+        <div class="modal-content">
+            <h1 id="title-intro">Python Quiz</h1>
+            <img id="startQuiz" src="./img/python.svg" alt="Comenzar Quiz">
+            <h3 id="subtitle-intro">¡Pulsa el logo para comenzar!</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div id="levelSelection">
+            <div class="level-section">
+                <h3 class="level-title">Para poder seguir,
+                    selecciona el nivel que deseas realizar:</h3>
+                <button id="startBeginnerQuiz">Principiante</button>
+                <button id="startIntermediateQuiz">Intermedio</button>
+                <p id="advertising"><strong>IMPORTANTE:</strong> <br> Es un quiz sin límite de tiempo y sin retorno a
+                    preguntas previas, es
+                    aconsejable tomarte todo el tiempo necesario para contestar cada pregunta, al finalizar verás un
+                    resumen.</p>
+            </div>
+        </div>
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="score"></div>
+        <table id="responseTable">
+            <tr>
+                <th id="questionAnswer">Pregunta</th>
+                <th id="yourAnswer">Tu respuesta</th>
+                <th id="correctAnswer">Respuesta correcta</th>
+            </tr>
+        </table>
+        <div id="correction">
+            <button id="toggleAccordion">Corrección y explicación.</button>
+            <div id="correctionAccordion" class="accordion">
+            </div>
+        </div>
+        <div id="retryContainer">
+            <button id="retryButton">Reintentar</button>
+        </div>
+    </div>
+    <small><a href="https://www.linkedin.com/in/samudev" title="Linkedin" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn" class="social-link">
+            @SamuDev</a>
+        Actividad didáctica para
+        <a href="https://www.fcad.uner.edu.ar/" title="Facultad de Ciencias de la Administración UNER" target="_blank"
+            rel="noopener noreferrer" class="social-link">
+            FCAD UNER</a>
+    </small>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
