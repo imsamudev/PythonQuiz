@@ -31,11 +31,11 @@ Tiene como objetivo facilitar el aprendizaje y la evaluación de conocimientos b
 
 ## Cómo Jugar
 
-¡Es muy sencillo comenzar! Solo debes seguir este [enlace](NODEPLOY) para acceder al Quiz Básico de Python.
+¡Es muy sencillo comenzar! Solo debes apretar la imagen para acceder al Quiz Básico de Python.
 
 ¿Estás listo para desafiar tus habilidades en Python y ampliar tu conocimiento en programación? ¡Adelante!
 
-![bg](https://github.com/user-attachments/assets/fa68be71-9be3-47bb-b15c-fc4ec923ba78)
+[![bgPythonQuiz](https://github.com/user-attachments/assets/f3a585bd-8115-4e98-953e-55d9702fd296)](https://imsamudev.github.io/PythonQuiz/)
 
 
 ---
