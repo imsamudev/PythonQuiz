@@ -111,9 +111,15 @@ body {
   transition: ease-in-out 0.3s;
 }
 
+#logoText {
+  height: 100px;
+  animation: scale-up-vertical-center 1s linear both;
+}
+
 #title-intro {
   color: var(--blanco);
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 1rem;
   text-shadow: 0px 2px 3px var(--negro);
   animation: scale-up-vertical-center 1s linear both;
   cursor: default;
